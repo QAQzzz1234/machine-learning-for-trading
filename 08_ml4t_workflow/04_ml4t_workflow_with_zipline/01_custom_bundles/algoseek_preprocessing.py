@@ -20,7 +20,7 @@ Please refer to the README for a brief summary on how you could adapt this code 
 
 
 PROJECT_DIR = Path('..', '..')
-data_path = PROJECT_DIR / 'data' / 'nasdaq100'
+data_path = PROJECT_DIR / 'data' / '1min_taq'
 
 ZIPLINE_ROOT = getenv('ZIPLINE_ROOT')
 if not ZIPLINE_ROOT:
